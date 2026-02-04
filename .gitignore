@@ -1,0 +1,43 @@
+##################################
+# Maven / Build
+##################################
+/target/
+.mvn/wrapper/maven-wrapper.jar
+
+##################################
+# Logs (you already have these)
+##################################
+*.log
+logs/
+build_log
+build_log.txt
+build_output
+build_output.log
+
+##################################
+# Eclipse / STS / IDE
+##################################
+.classpath
+.project
+.settings/
+.factorypath
+
+##################################
+# OS junk
+##################################
+.DS_Store
+Thumbs.db
+
+##################################
+# IntelliJ / VS Code (future-proof)
+##################################
+.idea/
+.vscode/
+*.iml
+
+##################################
+# Temp / backup
+##################################
+*.tmp
+*.bak
+*.swp
