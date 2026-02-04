@@ -40,7 +40,7 @@ Before running the application, ensure you have the following installed:
 1.  **Clone the Repository**
     ```bash
     git clone <repository_url>
-    cd HMS
+    cd Hospital-Management-System
     ```
 
 2.  **Database Setup**
@@ -50,10 +50,10 @@ Before running the application, ensure you have the following installed:
 The application configuration can be found in `src/main/resources/application.properties`.
 
 Default Configuration:
-- **Server Port**: `8083`
-- **Database URL**: `jdbc:mysql://localhost:3306/hms`
-- **Database Username**: `root`
-- **Database Password**: `root`
+- **Server Port**: `8080`
+- **Database URL**: `jdbc:mysql://localhost:3306/`
+- **Database Username**: `username`
+- **Database Password**: `password`
 
 If your MySQL credentials differ, update the `application.properties` file:
 
